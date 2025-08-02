@@ -1,0 +1,22 @@
+# Ignore Composer dependencies
+/vendor/
+# Drupal file uploads (images, PDFs, etc.)
+/web/sites/default/files/
+# Local settings
+/web/sites/default/settings.local.php
+
+# Ignore backup files
+*.bak
+*.orig
+*.swp
+*~
+
+# Ignore Drupal cache & temporary files
+/web/sites/default/files/php/*
+/web/sites/default/files/js/*
+/web/sites/default/files/css/*
+/web/sites/default/files/tmp/*
+
+# Ignore DDEV logs and build artifacts
+.ddev/.dbinfo
+.ddev/*.log
